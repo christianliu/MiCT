@@ -20,3 +20,50 @@
 	width: 55%
 	@media screen and (max-width: 600px)
 		display: none
+
+.wrapper
+	margin: 0 auto
+	position: relative
+	width: 80%
+	+pie-clearfix
+	
+.section, .row
+	+pie-clearfix
+
+.row
+	display: block
+	width: 100%
+
+.half, .third, .two-thirds, .fourth, .three-fourths, .fifth
+	display: inline
+	float: left
+	+pie-clearfix
+
+.half
+	width: 50%
+
+.third
+	width: 33%
+	
+.two-thirds
+	width: 67%
+
+.fourth
+	width: 25%
+	
+.three-fourths
+	width: 75%
+	
+.fifth
+	width: 20%
+	
+.left
+	display: inline
+	float: left
+
+.right
+	display: inline
+	float: right
+	
+.clearfix
+	+pie-clearfix
